@@ -20,13 +20,15 @@ function App() {
   ])
   
   const handleTaskAddition = (taskTitle) =>{
+    if (taskTitle === '') {alert("Preencha alguma coisa")} 
+    else{
     const newTasks = [...tasks, {
       title: taskTitle,
       id: uuidv4(),
       isCompleted: false,
     }]
     setTasks(newTasks)
-  }
+  }}
 
   return (
     <div className="App">
