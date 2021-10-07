@@ -10,12 +10,12 @@ function App() {
     {
       id:1,
       title:"study english",
-      isCompleted: true,
+      completed: true,
     },
     {
       id:2,
       title:"Get rid of the washroom's door fungus",
-      isCompleted: false,
+      completed: false,
     },
   ])
   
@@ -25,7 +25,7 @@ function App() {
     const newTasks = [...tasks, {
       title: taskTitle,
       id: uuidv4(),
-      isCompleted: false,
+      completed: false,
     }]
     setTasks(newTasks)
   }}
