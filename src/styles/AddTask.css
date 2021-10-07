@@ -9,6 +9,7 @@
     padding: 10px;
     border-radius: 2px;    
     flex: 2;
+    font-size: 1.1em;
 }
 
 .Button-Save{

@@ -1,9 +1,7 @@
-import react from 'react'
 import { useState } from 'react';
 import './styles/App.css';
 import Tasks from './components/Tasks'
 import AddTask from  './components/AddTask'
-import Button from './components/Button';
 
 
 function App() {
@@ -20,10 +18,19 @@ function App() {
     },
   ])
   
+  const handleTaskAddition = (taskTitle) =>{
+    const newTasks = [...tasks, {
+      title: taskTitle,
+      id: Math.random(10),
+      isCompleted: false,
+    }]
+    setTasks(newTasks)
+  }
+
   return (
     <div className="App">
       <h1>To do list</h1>
-      <AddTask/>
+      <AddTask handleTaskAddition={handleTaskAddition}/>
       
       <Tasks tasks={tasks}/>
     </div>

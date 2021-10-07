@@ -1,4 +1,3 @@
-import react from "react";
 import '../styles/task.css'
 
 function Task({ task }){
