@@ -1,0 +1,12 @@
+button{
+    padding: 10px;
+    border: none;
+    background-color: chartreuse;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 2px;
+    flex: 1;
+
+}

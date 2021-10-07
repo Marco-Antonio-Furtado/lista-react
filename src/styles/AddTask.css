@@ -1,0 +1,16 @@
+.Add-Task-Container{
+    display: flex;
+}
+
+.Add-Task{
+    color: white;
+    background-color: #444;
+    border: none;
+    padding: 10px;
+    border-radius: 2px;    
+    flex: 2;
+}
+
+.Button-Save{
+    margin-left: 10px;
+}
