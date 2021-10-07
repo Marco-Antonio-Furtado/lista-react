@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './styles/App.css';
 import Tasks from './components/Tasks'
 import AddTask from  './components/AddTask'
+import { v4 as uuidv4 } from 'uuid'
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
   const handleTaskAddition = (taskTitle) =>{
     const newTasks = [...tasks, {
       title: taskTitle,
-      id: Math.random(10),
+      id: uuidv4(),
       isCompleted: false,
     }]
     setTasks(newTasks)
