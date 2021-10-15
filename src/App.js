@@ -45,7 +45,7 @@ function App() {
       <h1>To do list</h1>
       <AddTask handleTaskAddition={handleTaskAddition} />
       
-      <Tasks tasks={tasks}/>
+      <Tasks tasks={tasks} handleTaskClick={handleTaskClick}/>
     </div>
   );
 }
