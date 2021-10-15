@@ -1,11 +1,12 @@
 import '../styles/task.css'
 
-function Task({ task }){
+function Task({ task, handleTaskClick }){
     return(
-        <div className="task-container"
+        <div className="task-container"  onClick={() => handleTaskClick(task.id)}
         style={task.completed ? { borderLeft: "6px solid chartreuse" }: {}}
         >
-            <p className="task">{task.title}</p>
+                {task.title}
+            
         </div>
     )
 }
