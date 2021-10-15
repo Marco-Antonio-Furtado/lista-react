@@ -9,7 +9,17 @@
     font-family: sans-serif;
     font-size: 1.1em;
     padding: 15px;
-    cursor: pointer;
     
+}
 
+.task-title{
+    cursor: pointer;
+}
+
+.btn-deletar{
+    border: none;
+    background-color: #444;
+    color: chartreuse;
+    font-size: 20px;
+    cursor: pointer;
 }
