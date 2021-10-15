@@ -1,9 +1,9 @@
 import Task from './Task'
 
-function Tasks({ tasks }) {
+function Tasks({ tasks, handleTaskClick }) {
     return (
       <div className="Tasks">
-        {tasks.map((task, i) => (<Task key={i} task={task} />
+        {tasks.map((task, id) => (<Task handleTaskClick={handleTaskClick} key={id} task={task} />
         ))}
       </div>
     );
