@@ -30,6 +30,16 @@ function App() {
     setTasks(newTasks)
   }}
 
+  const handleTaskClick = (taskId) =>{
+    const newTasks = tasks.map(task =>{
+    if(task.id === taskId) return {...task, completed: !task.completed}
+    return task
+    }) 
+    setTasks(newTasks)
+  }
+
+  const handleTaskDeletion = (taskId) => {}
+
   return (
     <div className="App">
       <h1>To do list</h1>
