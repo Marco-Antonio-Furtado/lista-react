@@ -43,7 +43,7 @@ function App() {
   return (
     <div className="App">
       <h1>To do list</h1>
-      <AddTask handleTaskAddition={handleTaskAddition}/>
+      <AddTask handleTaskAddition={handleTaskAddition} />
       
       <Tasks tasks={tasks}/>
     </div>
