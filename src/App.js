@@ -8,12 +8,12 @@ import { v4 as uuidv4 } from 'uuid'
 function App() {
   const [tasks, setTasks] = useState ([
     {
-      id:1,
+      id:uuidv4(),
       title:"study english",
       completed: true,
     },
     {
-      id:2,
+      id:uuidv4(),
       title:"Get rid of the washroom's door fungus",
       completed: false,
     },
