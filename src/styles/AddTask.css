@@ -16,3 +16,10 @@
 .Button-Save{
     margin-left: 10px;
 }
+
+.required-text{
+    color: rgba(255, 0, 0, 0.63);
+    font-size: 12px;
+    font-family: sans-serif;
+
+}
