@@ -18,9 +18,11 @@ function App() {
       completed: false,
     },
   ])
+
+
   
   const handleTaskAddition = (taskTitle) =>{
-    if (taskTitle === '') {alert("Please fill the required inputs")} 
+    if (taskTitle === '') {} 
     else{
     const newTasks = [...tasks, {
       title: taskTitle,
