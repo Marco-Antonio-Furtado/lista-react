@@ -19,8 +19,19 @@ function AddTask({ handleTaskAddition }){
         handleAddTaskClick()
     }
     
+    function required(){
+        return (
+        <p className="required-text">*Required input</p>,
+        console.log("asd")
+            
+        )}
+
+        function teste(){return(
+            handleAddTaskClick(),
+            required()) }
 
     return (
+    <div>
         <div className="Add-Task-Container">
             <input onKeyUp={handleEnter} 
             onChange={handleInputData} 
@@ -28,9 +39,13 @@ function AddTask({ handleTaskAddition }){
             value={inputData}/>
 
             <div className="Button-Save">
-                <Button onClick={handleAddTaskClick}>Ugabuga</Button>
+                <Button onClick={teste}>Ugabuga</Button>
             </div>
         </div>
+      
+            
+        
+    </div>
     )
 }
 
