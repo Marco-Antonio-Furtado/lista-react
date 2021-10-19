@@ -1,9 +1,11 @@
-import '../styles/Button.css'
+import "../styles/Button.css";
 
-function Button ({ children, onClick }){
-    return(
-        <button className="btn" onClick={onClick} >{children}</button>
-    )
+function Button({ children, onClick }) {
+  return (
+    <button className="btn" onClick={onClick}>
+      {children}
+    </button>
+  );
 }
 
-export default Button
+export default Button;

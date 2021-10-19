@@ -1,25 +1,24 @@
-.Add-Task-Container{
-    display: flex;
+.Add-Task-Container {
+  display: flex;
 }
 
-.Add-Task{
-    color: white;
-    background-color: #777;
-    border: none;
-    padding: 10px;
-    border-radius: 2px;    
-    flex: 2;
-    font-size: 1.1em;
-    outline: none;
+.Add-Task {
+  color: white;
+  background-color: #777;
+  border: none;
+  padding: 10px;
+  border-radius: 2px;
+  flex: 2;
+  font-size: 1.1em;
+  outline: none;
 }
 
-.Button-Save{
-    margin-left: 10px;
+.Button-Save {
+  margin-left: 10px;
 }
 
-.required-text{
-    color: rgba(255, 0, 0, 0.63);
-    font-size: 12px;
-    font-family: sans-serif;
-
+.required-text {
+  color: rgb(255, 0, 0);
+  font-size: 12px;
+  font-family: sans-serif;
 }
