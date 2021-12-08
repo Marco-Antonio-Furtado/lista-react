@@ -14,7 +14,7 @@ function App() {
     },
     {
       id: uuidv4(),
-      title: "Get rid of the washroom's door fungus",
+      title: "Take the dog for a walk",
       completed: false,
     },
   ]);
