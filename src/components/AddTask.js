@@ -29,7 +29,7 @@ function AddTask({ handleTaskAddition, error }) {
           value={inputData}
         />
         <div className="Button-Save">
-          <Button onClick={handleAddTaskClick}>Ugabuga</Button>
+          <Button onClick={handleAddTaskClick}>+ Add Task</Button>
         </div>
       </div>
       {error && <p className="required-text">*Required input</p>}
